@@ -1,6 +1,6 @@
-const helloWorld = require('./helloWorld');
+const helloWorld = require('./helloWorld.js');
 
-describe('Hello World', function() {
+describe('helloWorld', function() {
   test('says "Hello, World!"', function() {
     expect(helloWorld()).toEqual('Hello, World!');
   });
